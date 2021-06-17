@@ -1,0 +1,39 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background-color: lightgrey;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+.modal__dialog {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: black;
+}
+
+.modal__button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #0070b8;
+  color: white;
+  border: none;
+  font-size: 16px;
+  margin-top: 20px;
+}

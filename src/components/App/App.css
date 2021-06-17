@@ -1,0 +1,76 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  height: 100vh;
+}
+
+.app__header {
+  display: flex;
+  justify-content: center;
+  background-color: #0070b8;
+  color: white;
+  width: 100%;
+}
+
+.app__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  width: 800px;
+}
+
+.app__validation-message {
+  color: red;
+  font-size: 14px;
+}
+
+.app__form {
+  width: 100%;
+  background-color: white;
+  padding: 50px 100px;
+  box-sizing: border-box;
+}
+
+.date-pickers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  width: 100%;
+}
+
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
+.date-picker input {
+  cursor: initial;
+  padding: 16px;
+  font-family: Arial;
+  border: 1px solid black;
+}
+
+input[type='date' i]::-webkit-calendar-picker-indicator {
+  padding: 0px;
+  cursor: pointer;
+}
+
+.app__buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.app__button {
+  padding: 16px;
+  width: 270px;
+  cursor: pointer;
+  background-color: #0070b8;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
